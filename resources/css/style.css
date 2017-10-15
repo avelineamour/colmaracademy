@@ -1,9 +1,8 @@
 
 html {
   font-size: 16px;
-  font-family: "Europa-Regular";
+  font-family: "Varela Round";
 }
-
 
 h1 {
   font-size: 2.7rem;
@@ -13,6 +12,8 @@ h3 {
   font-size: 1.5rem;
 }
 
+/*Header-- Logo/Nav*/
+
 .header {
   width: 100%;
   height: 4rem;
@@ -20,6 +21,14 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #AA3939;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  opacity: 0.99;
+  box-shadow: 0 2px 7px 0 #ACA0A7;
+
 }
 
 .logo {
@@ -27,51 +36,155 @@ h3 {
   height: 2rem;
   display: flex;
   align-items: center;
+  font-family: "Dosis";
 }
 
 .logo span {
-  text-transform: uppercase;
+  text-transform: lowercase;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 7px;
+}
+
+.desktopnav {
+  letter-spacing: 1px;
+  font-size: .8rem;
 }
 
 .desktopnav a {
-  padding-right: 1rem;
+  padding-right: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.desktopnav a:hover {
+  color: #FFBFBF;
+}
+
+.desktopnav a:visited {
+  color: white;
 }
 
 .desktopnav {
   padding-right: .5rem;
   display: flex;
+  font-family: "Varela Round";
 }
+
+/*Banner*/
 
 .banner {
   display: flex;
-  background-color: lightgrey;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+  margin-top: 4rem;
 }
 
 .banner img {
-  width: 60%;
-  height: auto;
-  padding: 2rem 1.5rem;
+  width: 50%;
+  margin-right: 3rem;
+  box-shadow: 0 2px 7px 0 #ACA0A7;
+
 }
 
 .calltoaction {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 11rem;
-  margin-left: 1.5rem;
+  align-items: center;
+  width: 35%;
+  /*padding: 6rem;*/
+}
+
+.calltoaction h1 {
+  line-height: 1.3;
+  color: #D46A6A; /*peachy red color*/
+  text-shadow: 1px 0px 5px #ACA0A7;
 }
 
 .calltoaction h3 {
   margin-top: 3rem;
+  line-height: 1.3;
+  color: #ACA0A7; /*light grey color*/
 }
 
 .button {
-  border-radius: ;
-  border: 1px solid black;
+  border-radius: 6px;
   margin-top: 3rem;
   text-align: center;
-  background-color: darkgrey;
-  vertical-align: center;
+  background-color: #AA3939;
+  color: white;
   padding: 0.5rem 0rem;
-  width: 80%;
+  width: 70%;
+  box-shadow: 0 2px 7px 0 #ACA0A7;
+  transition: background-color 250ms ease-in-out;
+}
+
+.button:hover {
+  background-color: white;
+  border: solid 1px #AA3939;
+  color: #AA3939;
+}
+
+
+/*Information Section (Red)*/
+
+.infomain {
+  width: 100%;
+  display: flex;
+  background-color: #AA3939;
+  color: white;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.practice {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.practice img {
+  height: 30rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding-top: 4rem;
+  padding-left: 2rem;
+}
+
+.infosection {
+  display: flex;
+  margin-bottom: 2rem;
+
+}
+
+.infosection img {
+  width: 35%;
+  height: 35%;
+}
+
+.infotext {
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.infotext h3 {
+  padding-bottom: 0.5rem;
+}
+
+.infotext span {
+  padding-bottom: 0.5rem;
 }
