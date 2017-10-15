@@ -2,6 +2,7 @@
 html {
   font-size: 16px;
   font-family: "Varela Round";
+  color: #ACA0A7;
 }
 
 body {
@@ -234,4 +235,54 @@ hr {
 
 .infotext span {
   padding-bottom: 0.5rem;
+}
+
+.courses h1 {
+  text-align: center;
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+}
+
+.coursesrow1 {
+  display: flex;
+  justify-content: center;
+}
+
+.coursesrow2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.course {
+  width: 20%;
+  border: solid #ACA0A7 1px;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.course:hover {
+  background-color: #ACA0A7;
+  color: white;
+}
+
+.course p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.course h3 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: #D46A6A;
+}
+
+.course img {
+  height: auto;
+  width: 100%;
+}
+
+.middle {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
