@@ -163,6 +163,8 @@ hr {
   justify-content: center;
   overflow: hidden;
   color: #ACA0A7;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .infomain img {
@@ -175,10 +177,10 @@ hr {
 
 .practice {
   display: flex;
-  width: 40%;
+  width: 30%;
   flex-direction: column;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .practice img {
@@ -204,7 +206,6 @@ hr {
   width: 30%;
   margin-top: 4rem;
   margin-left: 3rem;
-  padding-left: 2rem;
 }
 
 .infosection {
@@ -237,26 +238,29 @@ hr {
   padding-bottom: 0.5rem;
 }
 
+/*Courses*/
+
 .courses h1 {
   text-align: center;
   width: 100%;
-  margin: 2rem 0 2rem 0;
+  margin: 8rem 0 4rem 0;
 }
 
 .coursesrow1 {
   display: flex;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .coursesrow2 {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 8rem;
 }
 
 .course {
-  width: 20%;
+  width: 18%;
   border: solid #ACA0A7 .1px;
   text-align: center;
   line-height: 1.3;
@@ -267,6 +271,7 @@ hr {
 .course:hover {
   background-color: #AA3939;
   color: white;
+  opacity: 0.9;
 }
 
 .course:hover h3 {
@@ -274,8 +279,14 @@ hr {
 }
 
 .course p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.course span,
+.course p {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .course h3 {
