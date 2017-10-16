@@ -261,7 +261,7 @@ hr {
 
 .course {
   width: 18%;
-  border: solid #ACA0A7 .1px;
+  /*border: solid #ACA0A7 .1px;*/
   text-align: center;
   line-height: 1.3;
   box-shadow: 0 2px 7px 0 #ACA0A7;
